@@ -13,8 +13,12 @@ class Perro(Animal):
     def hablar(self):
         print(f"{self.nombre} ladra... guau guau 🐶")
 
+    def caminar(self):
+        print(f"{self.nombre} camina, muy rapido")
+
 silvestre = Animal("Aguila")
 mascota = Perro("Altair", "Criollito")
 
 silvestre.hablar()
 mascota.hablar()
+mascota.caminar()
